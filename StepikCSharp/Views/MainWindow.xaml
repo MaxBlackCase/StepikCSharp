@@ -12,7 +12,7 @@
   WindowStartupLocation="CenterScreen"
   BorderThickness="0"
   Title="MainWindow"
-  Height="450"
+  Height="600"
   Width="800">
   <Grid>
 

@@ -11,13 +11,17 @@ namespace Struct
     static void Main(string[] args)
     {
 
-      Point _point;
-      _point.X = 15;
-      _point.Y = 562;
+      Point _p1 = new Point(10, 10);
+      Point _p2 = _p1;
 
-      _point.Display();
-      _point.Decrement();
-      _point.Display();
+      _p1.Display();
+      _p2.Display();
+
+      _p1.X = 100;
+
+      Console.WriteLine("\nChanges _p1.X\n");
+      _p1.Display();
+      _p2.Display();
 
       Console.ReadLine();
 

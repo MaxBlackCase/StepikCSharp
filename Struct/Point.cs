@@ -9,8 +9,16 @@ namespace Struct
   internal struct Point
   {
 
+
+
     public int X;
     public int Y;
+
+    public Point(int XPos, int YPos)
+    {
+      X = XPos;
+      Y = YPos;
+    }
 
     public void Increment()
     {

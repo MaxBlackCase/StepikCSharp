@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle", "Rectangle\Rect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefTypeValTypeParams", "RefTypeValTypeParams\RefTypeValTypeParams.csproj", "{021AC6E7-9A98-4135-85E3-8A65BB7ECF7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corteges", "Corteges\Corteges.csproj", "{0606DC4E-DDC7-4B8D-A539-B2AFF2BEDECF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{021AC6E7-9A98-4135-85E3-8A65BB7ECF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{021AC6E7-9A98-4135-85E3-8A65BB7ECF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{021AC6E7-9A98-4135-85E3-8A65BB7ECF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0606DC4E-DDC7-4B8D-A539-B2AFF2BEDECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0606DC4E-DDC7-4B8D-A539-B2AFF2BEDECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0606DC4E-DDC7-4B8D-A539-B2AFF2BEDECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0606DC4E-DDC7-4B8D-A539-B2AFF2BEDECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

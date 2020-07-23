@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefTypeValTypeParams", "Ref
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClassExample", "SimpleClassExample\SimpleClassExample.csproj", "{1E40CB4C-B746-4509-97E9-7618C593D174}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticDataAndMembers", "StaticDataAndMembers\StaticDataAndMembers.csproj", "{B0DD2A28-4197-4097-9811-694E6EDA0F88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{1E40CB4C-B746-4509-97E9-7618C593D174}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E40CB4C-B746-4509-97E9-7618C593D174}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E40CB4C-B746-4509-97E9-7618C593D174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DD2A28-4197-4097-9811-694E6EDA0F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DD2A28-4197-4097-9811-694E6EDA0F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DD2A28-4197-4097-9811-694E6EDA0F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DD2A28-4197-4097-9811-694E6EDA0F88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

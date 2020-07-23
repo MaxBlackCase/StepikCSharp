@@ -10,6 +10,12 @@ namespace SimpleClassExample
   {
     static void Main(string[] args)
     {
+
+      Car myCar = new Car("Rolls Royce");
+
+      myCar.PrintState();
+
+      Console.ReadLine();
     }
   }
 }

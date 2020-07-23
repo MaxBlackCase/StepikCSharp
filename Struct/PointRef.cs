@@ -4,12 +4,8 @@ namespace Struct
 {
   internal struct PointRef
   {
-
-
-
     public int X;
     public int Y;
-
     public PointRef(int XPos, int YPos)
     {
       X = XPos;

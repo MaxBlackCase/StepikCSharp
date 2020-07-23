@@ -6,7 +6,6 @@ namespace Struct
   {
     static void Main(string[] args)
     {
-
       PointRef _p1 = new PointRef(10, 10);
       PointRef _p2 = _p1;
 
@@ -20,7 +19,6 @@ namespace Struct
       _p2.Display();
 
       Console.ReadLine();
-
     }
   }
 }

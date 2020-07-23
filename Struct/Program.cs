@@ -16,6 +16,7 @@ namespace Struct
       _p1.X = 100;
 
       Console.WriteLine("\nChanges _p1.X\n");
+      Console.WriteLine("\nChanges _p1.X\n");
       _p1.Display();
       _p2.Display();
 

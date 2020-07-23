@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Struct
 {
-  internal struct Point
+  internal struct PointRef
   {
 
 
@@ -14,7 +10,7 @@ namespace Struct
     public int X;
     public int Y;
 
-    public Point(int XPos, int YPos)
+    public PointRef(int XPos, int YPos)
     {
       X = XPos;
       Y = YPos;

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Struct
 {
@@ -11,8 +7,8 @@ namespace Struct
     static void Main(string[] args)
     {
 
-      Point _p1 = new Point(10, 10);
-      Point _p2 = _p1;
+      PointRef _p1 = new PointRef(10, 10);
+      PointRef _p2 = _p1;
 
       _p1.Display();
       _p2.Display();

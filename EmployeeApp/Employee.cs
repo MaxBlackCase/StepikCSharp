@@ -12,29 +12,9 @@ namespace EmployeeApp
     private string empName;
     private int empID;
     private float currPay;
-
-    public Employee() { }
-    public Employee(string name, int id, float pay) {
-
-      empName = name;
-      empID = id;
-      currPay = pay;
-
-    }
-
-    public void GiveBonus(float amount)
+    private int empAge;
+    public string Name
     {
-      currPay += amount;
-    }
-
-    public void DisplayStats()
-    {
-      Console.Write("Name: {0} ", Name);
-      Console.Write("ID: {0} ", ID);
-      Console.Write("Pay: {0} ", Pay);
-    }
-
-    public string Name {
 
       get => empName;
       set
@@ -46,16 +26,49 @@ namespace EmployeeApp
       }
 
     }
-    public int ID {
+    public int Age {
+
+      get => empAge;
+      set => empAge = value;
+
+    }
+    public int ID
+    {
       get => empID;
       set => empID = value;
     }
 
-    public float Pay {
+    public float Pay
+    {
 
       get => currPay;
       set => currPay = value;
-    
+
     }
+
+    public Employee() { }
+    public Employee(string name, int id, float pay) 
+      : this(name, 0, id, pay) { }
+    public Employee(string name, int age, int id, float pay)
+    {
+      empName = name;
+      empID = id;
+      empAge = age;
+      currPay = pay;
+    }
+    public void GiveBonus(float amount)
+    {
+      currPay += amount;
+    }
+
+    public void DisplayStats()
+    {
+      Console.Write("Name: {0} ", empName);
+      Console.Write("ID: {0} ", empID);
+      Console.Write("Age: {0} ", empAge);
+      Console.Write("Pay: {0} ", currPay);
+    }
+
+   
   }
 }

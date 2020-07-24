@@ -11,12 +11,11 @@ namespace EmployeeApp
     static void Main(string[] args)
     {
 
-      Employee emp = new Employee();
-      emp.GiveBonus(1000);
-      emp.DisplayStats();
+      Employee joe = new Employee("Joe", 15, 178);
 
-      emp.Name = "Marvin";
-      Console.WriteLine("Emplotee is named: {0}", emp.Name);
+      joe.Age++;
+
+      Console.WriteLine("Name: {0}, Age: {1}, Pay: {2}", joe.Name, joe.Age, joe.Pay);
 
       Console.ReadLine();
 
